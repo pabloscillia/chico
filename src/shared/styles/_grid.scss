@@ -1,0 +1,15 @@
+@import 'grid_variables';
+
+.box-g100 {
+    margin: 0 auto;
+    max-width: $grid-g100;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.box-g50 {
+    margin: 0 auto;
+    max-width: 45%;
+    overflow: hidden;
+    padding: 15px;
+}

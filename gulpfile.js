@@ -176,7 +176,7 @@ gulp.task('minifyJS:mobile', function () {
 gulp.task('browser-sync', ['build'], function () {
     browserSync.init({
         port: 3040,
-        startPath: '/ui.html',
+        startPath: '/index.htm',
         server: {
             baseDir: [
                 // base path for views and demo assets
